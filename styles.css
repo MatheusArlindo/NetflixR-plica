@@ -1,0 +1,59 @@
+
+@import url(./src/banner.css);
+@import url(./src/header.css);
+@import url(./src/categorias.css);
+@import url(./src/footer.css);
+
+:root {
+    --branco: #FFF;
+    --fundo-preto: #000;
+    --cinza: rgb(109, 109, 110, 0.7);
+    --cinza-menu: rgb(255, 255, 255, 0.697);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: var(--fundo-preto);
+    color: var(--branco);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner-principal {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.9) 5%,
+        rgba(0, 0, 0, 0.2) 20%,
+        rgba(0, 0, 0, 0.2) 80%,
+        rgba(0, 0, 0, 0.8) 100%
+      ),
+      url(./img/background.png);
+    background-size: cover;
+    height: 100vh;
+    padding: 0.26em 0.75em 0 0.75em;
+  }
+  
+  .banner {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 3em;
+  }
+
+  ul {
+    display: flex;
+   list-style: none;
+   align-items: center;
+   cursor: pointer;
+  }
+
+  li {
+    padding-right: 0.9em;
+  }

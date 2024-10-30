@@ -1,0 +1,43 @@
+.cabecalho {
+    display: flex;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.cabecalho__imagem {
+    width: 5.8em;
+    cursor: pointer;
+}
+
+.cabecalho__lista {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    color: var(--cinza-menu);
+    font-size: 0.85em;
+}
+
+.cabecalho__lista {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.cabecalho__lista {
+    padding-right: 0.9em;
+}
+
+.lista__menu-direita {
+    font-size: 20px;
+}
+
+.menu__imagem-user {
+    border-radius: 3px;
+}
+
+.lista__menu-esquerda li:hover {
+    color: var(--branco);
+}

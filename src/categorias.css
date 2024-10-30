@@ -1,0 +1,49 @@
+
+.categorias {
+    height: 200px;
+}
+
+.categorias__texto {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 17px;
+}
+
+.categorias__filmes {
+    display: flex;
+
+}
+
+.categorias__item {
+    padding: 17px 0 65px 2px;
+    transition: 250ms all;
+}
+
+.categorias__item img {
+    max-width: 100%;
+    padding-right: 5px;
+}
+
+.-animacao:hover {
+    margin: 0 40px;
+    transform: scale(1.6);
+
+}
+
+.seta__botao {
+    position: static;
+    color: var(--branco);
+    text-decoration: none;
+    font-size: 6em;
+    width: 80px;
+    text-align: center;
+}
+
+.seta__botao:hover {
+    color: var(--branco);
+    transform: scale(1.25);
+}
+
+
+
+

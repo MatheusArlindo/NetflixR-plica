@@ -1,0 +1,73 @@
+footer {
+    margin-top: 59em;
+}
+
+.rodape {
+}
+
+.link-plataformas {
+    margin-left: 26em;
+}
+
+.icone-plataformas {
+    font-size: 22px;
+    margin-right: 1.5rem;
+    cursor: pointer;
+    color: var(--branco);
+    width: 25px;
+}
+
+.link-informacoes {
+    color: var(--cinza-menu); 
+    margin: 20px auto;
+}
+
+.link-elementos__informacoes {
+    display: flex;
+    gap: 3em;
+    margin-left: 23em;
+}
+
+.rodape-lista {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 13px;
+}
+
+.rodape-lista__item {
+    list-style: none;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+.rodape-lista__item:hover {
+    text-decoration: underline;
+}
+
+
+.link-servico {
+    padding-bottom: 20px;
+    font-size: 13px;
+    margin-left: 31.2em;
+}
+
+.link-botao__servico {
+    background: 0 0;
+    text-decoration: none;
+    color: var(--cinza-menu);
+    border: solid 1px var(--cinza-menu);
+    padding: 0.7em 1em;
+    font-size: 13px;
+}
+
+.link-botao__servico:hover {
+    color: var(--branco);
+    border: solid 1px var(--branco);
+}
+ 
+.link-copyright {
+    color: var(--cinza-menu);
+    padding: 1em 0 2em 37em;
+    font-size: 11px;
+}
